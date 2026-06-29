@@ -1,0 +1,88 @@
+── auth/
+│   ├── AuthController
+│   ├── AuthService
+│   ├── AuthRepository
+│   ├── dto/
+│   └── entity/
+│
+├── user/
+│   ├── UserController
+│   ├── UserService
+│   ├── UserRepository
+│   ├── dto/
+│   └── entity/
+│
+├── partner/
+│   ├── PartnerController
+│   ├── PartnerService
+│   ├── PartnerRepository
+│   ├── dto/
+│   └── entity/
+│
+├── vocabulary/
+│   ├── VocabularyController
+│   ├── VocabularyService
+│   ├── VocabularyRepository
+│   ├── dto/
+│   └── entity/
+│
+├── dictionary/
+│   ├── DictionaryController
+│   ├── DictionaryService
+│   ├── dto/
+│   └── client/
+│
+├── learning/
+│   ├── LearningController
+│   ├── LearningService
+│   ├── dto/
+│   └── entity/
+│
+├── ai/
+│   ├── AIController
+│   ├── AIService
+│   ├── dto/
+│   └── client/
+│
+├── achievement/
+├── house/
+├── inventory/
+├── challenge/
+├── statistics/
+├── chat/
+├── notification/
+│
+├── security/
+├── config/
+├── common/
+└── exception/
+
+
+Difficulty Curve
+
+Example
+
+Level	XP Needed	Difficulty
+1	100	Very Easy
+2	120	Easy
+3	150	Easy
+10	350	Medium
+20	700	Medium
+35	1200	Hard
+50	1800	Very Hard
+77	Final	Master
+
+Houses
+
+Instead of randomly generating them, make them collectible.
+
+Example
+
+House	Price
+Small Apartment	2,000
+Cozy Cottage	5,000
+Modern Loft	8,500
+Forest Cabin	12,000
+Beach House	20,000
+Mountain Villa	35,000
+Luxury Mansion	75,000

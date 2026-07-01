@@ -26,6 +26,7 @@ public class UserEntity {
     private LocalDate created_at;
     @Column(name = "last_login")
     private LocalDate lastLogin;
+    private boolean enabled;
 
 
     public UserEntity() {
@@ -111,5 +112,13 @@ public class UserEntity {
 
     public void setLastLogin(LocalDate lastLogin) {
         this.lastLogin = lastLogin;
+    }
+
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
+    }
+
+    public boolean isEnabled() {
+        return enabled;
     }
 }
